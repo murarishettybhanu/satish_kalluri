@@ -1,5 +1,6 @@
 import { Award, Heart, Target, Video, Briefcase, GraduationCap } from 'lucide-react';
 import Button from '../components/Button';
+import profileImage from '../../public/satish_with_s.png';
 
 export default function About() {
   const values = [
@@ -86,7 +87,7 @@ export default function About() {
             <div className="animate-fade-in-up" style={{ animationDelay: '200ms' }}>
               <div className="relative max-w-xs mx-auto">
                 <img
-                  src="/satish_with_s.png"
+                  src={profileImage}
                   alt="Sathish Kalluri - Video Magnetism Coach"
                   className="rounded-2xl shadow-2xl w-full"
                   loading="lazy"

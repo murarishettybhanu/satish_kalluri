@@ -1,4 +1,5 @@
 import { Mail, Phone, Linkedin, Instagram } from 'lucide-react';
+import logo from '../../public/sathish-logo-2048x670.png';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -17,7 +18,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/sathish-logo-2048x670.png"
+                src={logo}
                 alt="Sathish Kalluri Logo"
                 className="h-8 object-contain"
               />

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import Button from './Button';
+import logo from '../../public/sathish-logo-2048x670.png';
 
 interface NavigationProps {
   currentPage: string;
@@ -48,7 +49,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               className="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-gold rounded-lg"
             >
               <img
-                src="/sathish-logo-2048x670.png"
+                src={logo}
                 alt="Sathish Kalluri Logo"
                 className="h-12 object-contain"
               />
