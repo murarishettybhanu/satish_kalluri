@@ -1,6 +1,6 @@
 import { Award, Heart, Target, Video, Briefcase, GraduationCap } from 'lucide-react';
 import Button from '../components/Button';
-import profileImage from '../../public/satish_with_s.png';
+import profileImage from '../assets/satish_with_s.png';
 
 export default function About() {
   const values = [

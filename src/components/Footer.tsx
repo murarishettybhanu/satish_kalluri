@@ -1,5 +1,5 @@
 import { Mail, Phone, Linkedin, Instagram } from 'lucide-react';
-import logo from '../../public/sathish-logo-2048x670.png';
+import logo from '../assets/sathish-logo-2048x670.png';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
