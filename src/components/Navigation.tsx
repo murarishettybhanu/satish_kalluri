@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Video } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Button from './Button';
 
 interface NavigationProps {
@@ -38,7 +38,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
     <>
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'bg-navy/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+          isScrolled || currentPage !== 'home' ? 'bg-navy/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,10 +47,11 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
               onClick={() => handleNavigate('home')}
               className="flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-gold rounded-lg"
             >
-              <Video className="w-8 h-8 text-gold" />
-              <span className="font-poppins font-bold text-xl text-white">
-                Sathish Kalluri
-              </span>
+              <img
+                src="/sathish-logo-2048x670.png"
+                alt="Sathish Kalluri Logo"
+                className="h-12 object-contain"
+              />
             </button>
 
             <div className="hidden md:flex items-center gap-8">

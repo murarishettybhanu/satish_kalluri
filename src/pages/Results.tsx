@@ -5,37 +5,37 @@ import Button from '../components/Button';
 export default function Results() {
   const caseStudies = [
     {
-      name: 'Priya Sharma',
-      role: 'Fitness Coach, Mumbai',
-      before: 'Camera-shy gym trainer with 200 Instagram followers',
-      after: '3 videos/week, 5K followers, 2x client bookings',
+      name: 'Radhika Reddy',
+      role: 'Founder - IBHI',
+      before: 'Struggling with camera presence and content creation',
+      after: 'Confident video creator building personal brand',
+      timeline: '60 days',
+      image: 'https://sathishkalluri.com/wp-content/uploads/2022/07/Screenshot_2022-07-08-14-58-25-454_com.whatsapp-1-768x1536.jpg',
+      testimonial:
+        "Thanks to Sathish's Video Magnetism coaching, I've overcome my camera shyness and built a strong personal brand. His strategies really work!",
+      metrics: ['Confident on camera', 'Consistent content creation', 'Brand authority built'],
+    },
+    {
+      name: 'Sri Charan Narsimha',
+      role: 'Rubik\'s Cube Expert, Guinness Record Holder',
+      before: 'Expert in field but camera shy',
+      after: 'Confident video creator with personal brand',
+      timeline: '75 days',
+      image: 'https://sathishkalluri.com/wp-content/uploads/2022/07/Screenshot_2022-07-08-14-58-21-357_com.whatsapp-1-768x1536.jpg',
+      testimonial:
+        'The Video Magnetism System helped me go from camera-shy to confident creator. I now consistently create engaging content that showcases my expertise.',
+      metrics: ['Camera confidence', 'Content consistency', 'Audience engagement'],
+    },
+    {
+      name: 'Devipriya',
+      role: 'Digital Coach & Trainer',
+      before: 'Limited online presence despite expertise',
+      after: 'Strong personal brand with consistent video content',
       timeline: '90 days',
-      image: 'https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://sathishkalluri.com/wp-content/uploads/2022/07/Screenshot_2022-07-11-00-30-56-637_com.whatsapp-768x1536.jpg',
       testimonial:
-        "I was terrified of recording myself. Sathish's system made it so simple. Now my clients find ME through my videos!",
-      metrics: ['2x client inquiries', '5K followers gained', '25 videos posted'],
-    },
-    {
-      name: 'Rajesh Kumar',
-      role: 'Business Coach, Bangalore',
-      before: 'Inconsistent posting, no video content strategy',
-      after: 'Confident video creator with predictable client flow',
-      timeline: '120 days',
-      image: 'https://images.pexels.com/photos/5483071/pexels-photo-5483071.jpeg?auto=compress&cs=tinysrgb&w=800',
-      testimonial:
-        'The templates eliminated my blank page anxiety. I now have a content system that actually works.',
-      metrics: ['50+ videos posted', '3x engagement rate', '₹8L revenue'],
-    },
-    {
-      name: 'Anita Desai',
-      role: 'Yoga Instructor, Delhi',
-      before: 'Zero video presence, relying only on referrals',
-      after: 'Personal brand with 10K followers and workshop bookings',
-      timeline: '180 days',
-      image: 'https://images.pexels.com/photos/4056462/pexels-photo-4056462.jpeg?auto=compress&cs=tinysrgb&w=800',
-      testimonial:
-        'Video transformed my business. I went from waiting for referrals to having a waitlist.',
-      metrics: ['10K followers', '100+ videos', 'Workshops fully booked'],
+        "Sathish's personalized coaching transformed how I show up on camera. I feel confident and authentic now, which has helped me attract more clients.",
+      metrics: ['Client attraction', 'Content authority', 'Personal brand growth'],
     },
   ];
 

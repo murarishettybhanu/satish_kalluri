@@ -26,33 +26,33 @@ export default function About() {
   const journey = [
     {
       year: '2015',
-      title: 'Started in Marketing',
+      title: 'Entrepreneurship Journey Begins',
       description:
-        'Began career in digital marketing, quickly realized video was the future',
+        'Co-founded an Advertising agency with 2 friends. Inspired by "Connect The Dots" by Rashmi Bansal, started learning Advertising and Marketing.',
     },
     {
-      year: '2017',
-      title: 'Founded NexT Marketing',
+      year: '2015-2021',
+      title: 'Built NexT Marketing Agency',
       description:
-        'Built a branding agency helping businesses tell their stories through video',
+        'Co-Founder and COO. Worked with 80+ startups and corporates. Managed production, design, operations, and 50+ vendors.',
     },
     {
       year: '2020',
-      title: 'Discovered the Gap',
+      title: 'Discovered the Problem',
       description:
-        'Noticed coaches had incredible expertise but froze on camera. Made it my mission to fix this.',
+        'Realized entrepreneurs and coaches struggle to create content consistently. Most were losing clients due to lack of visibility.',
     },
     {
       year: '2022',
-      title: 'Video Confidence System',
+      title: 'Created Video Magnetism System',
       description:
-        'Developed proven framework that helped 100+ coaches overcome camera anxiety',
+        'Developed a proven framework to help trainers and coaches overcome camera shyness and build personal brands.',
     },
     {
       year: 'Today',
-      title: 'Transforming Coaches',
+      title: 'Mission: Help 1,00,000 Entrepreneurs',
       description:
-        'Dedicated full-time to helping trainers and coaches build confident video presence',
+        'Full-time focus on helping trainers and coaches build confident video presence and successful businesses.',
     },
   ];
 
@@ -66,14 +66,13 @@ export default function About() {
                 Hi, I'm Sathish Kalluri
               </h1>
               <p className="font-inter text-xl text-cream mb-6 leading-relaxed">
-                I help trainers and coaches overcome camera shyness so they can attract
-                clients and build personal brands through video content.
+                An engineer-turned-entrepreneur and Video Magnetism Coach. I help trainers, coaches, and entrepreneurs overcome camera shyness and build powerful personal brands.
+              </p>
+              <p className="font-inter text-lg text-cream/90 mb-4 leading-relaxed">
+                I'm a Co-Founder and COO of a successful Advertising Agency where I worked with 80+ startups and corporates over 6 years, managing operations, design, and 50+ vendors.
               </p>
               <p className="font-inter text-lg text-cream/90 mb-8 leading-relaxed">
-                After 8+ years in branding and founding NexT Marketing, I discovered that
-                most coaches have incredible expertise but freeze when the camera turns on.
-                That's why I created a system to help you go from camera-shy to confident
-                creator.
+                Inspired by "Connect The Dots," I became an entrepreneur with a mission to help others win. After seeing entrepreneurs struggle with visibility and content creation, I created the Video Magnetism System—a proven framework to help you go from camera-shy to confident creator.
               </p>
               <Button
                 variant="primary"
@@ -85,10 +84,10 @@ export default function About() {
             </div>
 
             <div className="animate-fade-in-up" style={{ animationDelay: '200ms' }}>
-              <div className="relative">
+              <div className="relative max-w-xs mx-auto">
                 <img
-                  src="https://images.pexels.com/photos/4342352/pexels-photo-4342352.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Sathish Kalluri"
+                  src="/satish_with_s.png"
+                  alt="Sathish Kalluri - Video Magnetism Coach"
                   className="rounded-2xl shadow-2xl w-full"
                   loading="lazy"
                 />
@@ -165,14 +164,89 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-gold/5 via-transparent to-gold/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-navy mb-6">
+              Organisations That Were Game Changers
+            </h2>
+            <p className="font-inter text-lg text-gray-600 max-w-3xl mx-auto">
+              These platforms shaped my entrepreneurial mindset and expanded my perspective on solving real-world problems.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            {/* iFocus Mission */}
+            <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+              <div className="h-48 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center p-6">
+                <div className="text-center text-white">
+                  <div className="text-5xl font-poppins font-bold mb-2">iFocus</div>
+                  <div className="text-lg font-inter">Mission</div>
+                </div>
+              </div>
+              <div className="p-8">
+                <h3 className="font-poppins font-bold text-2xl text-navy mb-3">iFocus Mission</h3>
+                <p className="font-inter text-gray-700 mb-4 leading-relaxed">
+                  A Powerful Brigadier and Navigator at an organization that brings people from all walks of life together to share knowledge and experiences.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Multi-directional thinking for solving complex problems</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Diverse perspectives on entrepreneurship</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Network of inspiring entrepreneurs</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* SuSwatantra */}
+            <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+              <div className="h-48 bg-gradient-to-br from-gold to-yellow-500 flex items-center justify-center p-6">
+                <div className="text-center text-navy">
+                  <div className="text-5xl font-poppins font-bold mb-2">SuSwatantra</div>
+                  <div className="text-lg font-inter">Startup Hub</div>
+                </div>
+              </div>
+              <div className="p-8">
+                <h3 className="font-poppins font-bold text-2xl text-navy mb-3">SuSwatantra</h3>
+                <p className="font-inter text-gray-700 mb-4 leading-relaxed">
+                  An active coordinator of a startup hub fostering innovation and entrepreneurial growth in the ecosystem.
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Supporting young entrepreneurs and startups</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Building a vibrant startup ecosystem</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold rounded-full mt-2 flex-shrink-0" />
+                    <span className="font-inter text-gray-600">Connecting founders with mentors and investors</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20" style={{ backgroundColor: '#F9F4E9' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-navy mb-12 text-center">
             Credentials & Experience
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="bg-cream rounded-xl p-8 flex gap-4">
+            <div className="bg-white rounded-xl p-8 flex gap-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-gold/20">
               <Briefcase className="w-8 h-8 text-gold flex-shrink-0" />
               <div>
                 <h3 className="font-poppins font-semibold text-lg text-navy mb-2">
@@ -185,7 +259,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="bg-cream rounded-xl p-8 flex gap-4">
+            <div className="bg-white rounded-xl p-8 flex gap-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-gold/20">
               <Award className="w-8 h-8 text-gold flex-shrink-0" />
               <div>
                 <h3 className="font-poppins font-semibold text-lg text-navy mb-2">
@@ -198,7 +272,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="bg-cream rounded-xl p-8 flex gap-4">
+            <div className="bg-white rounded-xl p-8 flex gap-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-gold/20">
               <Video className="w-8 h-8 text-gold flex-shrink-0" />
               <div>
                 <h3 className="font-poppins font-semibold text-lg text-navy mb-2">
@@ -211,7 +285,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="bg-cream rounded-xl p-8 flex gap-4">
+            <div className="bg-white rounded-xl p-8 flex gap-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-gold/20">
               <GraduationCap className="w-8 h-8 text-gold flex-shrink-0" />
               <div>
                 <h3 className="font-poppins font-semibold text-lg text-navy mb-2">

@@ -12,7 +12,7 @@ export default function Home({ onNavigate }: HomeProps) {
   const scrollY = useScrollAnimation();
 
   const handleCTA = () => {
-    window.open('https://wa.me/919876543210', '_blank');
+    window.open('https://wa.me/919550537599', '_blank');
   };
 
   return (
@@ -34,20 +34,24 @@ export default function Home({ onNavigate }: HomeProps) {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl text-white mb-6 animate-fade-in-up">
-            Record 3 client-getting videos per week{' '}
-            <span className="text-gold">without camera fear</span>
+            Conquer The <span className="text-gold">Camera Shyness</span> And Build Your{' '}
+            <span className="text-gold">Personal Brand Online</span>
           </h1>
           <p className="font-inter text-lg sm:text-xl text-cream mb-8 max-w-3xl mx-auto animate-fade-in-up" style={{ animationDelay: '200ms' }}>
-            Coaching + templates to help you record, post, and grow your personal brand
+            Are you Struck at Camera Shyness and doubting your abilities to speak in front of Camera? It's time to unleash potential and overcome the self-doubt.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <Button variant="primary" size="lg" onClick={handleCTA}>
-              Book Free Clarity Call
+              Join Video Magnetism Masterclass
             </Button>
             <Button variant="outline" size="lg" onClick={() => onNavigate('work')}>
-              See Programs
+              Learn More
             </Button>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-8 text-cream animate-fade-in-up mb-8" style={{ animationDelay: '600ms' }}>
+            <p className="font-inter text-lg font-semibold">I am on a Mission to help 1,00,000 Trainers and Coaches to Build their Personal Brand Online using The Power of Videos</p>
           </div>
 
           <div className="flex flex-wrap justify-center gap-8 text-cream animate-fade-in-up" style={{ animationDelay: '600ms' }}>
@@ -138,24 +142,21 @@ export default function Home({ onNavigate }: HomeProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard
-              quote="I went from avoiding camera to posting 3 videos a week. My client inquiries doubled in just 30 days!"
-              author="Priya Sharma"
-              role="Fitness Coach, Mumbai"
-              result="2x client inquiries in 30 days"
+              quote="Thanks to Sathish's Video Magnetism coaching, I've overcome my camera shyness and built a strong personal brand. His strategies really work!"
+              author="Radhika Reddy"
+              role="Founder - IBHI"
               delay={0}
             />
             <TestimonialCard
-              quote="Sathish's templates made video creation so easy. I finally feel confident showing up online consistently."
-              author="Rajesh Kumar"
-              role="Business Coach, Bangalore"
-              result="50+ videos posted, zero anxiety"
+              quote="The Video Magnetism System helped me go from camera-shy to confident creator. I now consistently create engaging content."
+              author="Sri Charan Narsimha"
+              role="Rubik's Cube Expert, Guinness Record Holder"
               delay={200}
             />
             <TestimonialCard
-              quote="The mindset coaching was game-changing. I now see video as my secret weapon, not something to fear."
-              author="Anita Desai"
-              role="Yoga Instructor, Delhi"
-              result="From 0 to 10K followers in 90 days"
+              quote="Sathish's personalized coaching transformed how I show up on camera. I feel confident and authentic now."
+              author="Devipriya"
+              role="Digital Coach & Trainer"
               delay={400}
             />
           </div>

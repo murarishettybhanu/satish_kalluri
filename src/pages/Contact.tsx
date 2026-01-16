@@ -13,7 +13,7 @@ export default function Contact() {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const whatsappMessage = `Hi! I'm ${formData.name}. Email: ${formData.email}, Phone: ${formData.phone}. Message: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/919550537599?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -21,22 +21,22 @@ export default function Contact() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+91 98765 43210',
-      action: 'tel:+919876543210',
+      value: '+91 95505 37599',
+      action: 'tel:+919550537599',
       description: 'Mon-Sat, 9 AM - 7 PM IST',
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'hello@sathishkalluri.com',
-      action: 'mailto:hello@sathishkalluri.com',
+      value: 'connect@sathishkalluri.com',
+      action: 'mailto:connect@sathishkalluri.com',
       description: 'We reply within 24 hours',
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       title: 'WhatsApp',
-      value: '+91 98765 43210',
-      action: 'https://wa.me/919876543210',
+      value: '+91 95505 37599',
+      action: 'https://wa.me/919550537599',
       description: 'Fastest response time',
     },
     {
@@ -232,8 +232,10 @@ export default function Contact() {
                 <MapPin className="w-8 h-8 text-gold mb-4" />
                 <h3 className="font-poppins font-bold text-xl text-navy mb-2">Location</h3>
                 <p className="font-inter text-gray-700">
-                  Based in India, serving coaches worldwide through online programs and
-                  consultations.
+                  H. No. 11-222/A, Parameshwari Nagar,<br/>
+                  Bokkoniguda, Ghatkesar,<br/>
+                  Medchal-Malkajgiri District,<br/>
+                  Telangana - 501301, India
                 </p>
               </div>
             </div>
