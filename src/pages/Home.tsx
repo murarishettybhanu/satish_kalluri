@@ -18,7 +18,7 @@ export default function Home({ onNavigate }: HomeProps) {
   return (
     <div className="min-h-screen">
       <section
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
         style={{
           background: 'linear-gradient(135deg, #1a2639 0%, #0d1520 100%)',
         }}
